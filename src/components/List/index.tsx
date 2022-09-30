@@ -70,6 +70,7 @@ const TaskList = () => {
         </header>
 
         <div className={styles.listTasks}>
+        {/* for items in progress */}
         {tasks.length > 0 && tab === "andamento"
           ? tasks.map((task) => {
               return (
