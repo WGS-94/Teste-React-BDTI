@@ -1,8 +1,3 @@
-<!-- Logotipo 
-<div align="center">
-  <img src="./Assets/ignite.png">
-</div>-->
-
 <!-- Title -->
 <h1 align="center"> Teste React - BDTI 🔥</h1>
 
