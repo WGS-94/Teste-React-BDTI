@@ -17,21 +17,25 @@ function BtnUpdate({ task }:IBtnUpdate) {
   const [newTask, setNew] = useState<ITask>(task);
   const [modalIsOpen, setIsOpen] = useState<boolean>(false);
 
+  // Função para abrir o modal
   function openModal() {
     setIsOpen(true);
   }
 
+  // Função para fechar o modal
   function closeModal() {
     setIsOpen(false);
   }
-
+    // Referencia para acompanhar quantas vezes o valor do input renderizado é atualizado.
     const initialRef = React.useRef() as React
     .MutableRefObject<HTMLInputElement>;
 
+    // Função para salvar a nova tarefa atualizada
     function handleTask(e: React.ChangeEvent<HTMLInputElement>) {
       setNew({...newTask, description: e.target.value})
     }
 
+    // Adiona tarefa
     function upTask(){
 
       const info = task.description.trim();

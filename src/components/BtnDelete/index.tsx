@@ -16,6 +16,7 @@ function BtnDeleteAll() {
     
     const dispatch = useDispatch();
 
+     // Funções para abrir e fechar o modal
     function openModal() {
       setIsOpen(true);
     }
@@ -24,6 +25,7 @@ function BtnDeleteAll() {
       setIsOpen(false);
     }
 
+    // Função para excluir todas as tarefas
     function removeAllTasks() {
       try {
         dispatch(deleteAllTasks())
@@ -72,6 +74,7 @@ function BtnDelete({task}:IBtnDelete) {
   const [modalIsOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
 
+  // Funções para abrir e fechar o modal
   function openModal() {
     setIsOpen(true);
   }
@@ -80,6 +83,7 @@ function BtnDelete({task}:IBtnDelete) {
     setIsOpen(false);
   }
 
+  // Função para excluir uma tarefa
   function removeTask() {
     try {
       dispatch(deleteTask(task))

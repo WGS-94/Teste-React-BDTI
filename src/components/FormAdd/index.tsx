@@ -13,6 +13,7 @@ function FormAdd() {
     const [content, setContent] = useState('');
     const [statusInput, setStatusInput] = useState(true);
 
+    // Função para adicionar tarefa
     function handleSubmit(e: FormEvent<HTMLFormElement>){
         e.preventDefault();
 
