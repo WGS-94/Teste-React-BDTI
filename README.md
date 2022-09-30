@@ -4,7 +4,7 @@
 </div>-->
 
 <!-- Title -->
-<h2 align="center"> Teste React - BDTI 🔥</h2>
+<h1 align="center"> Teste React - BDTI 🔥</h1>
 
 <!-- Subtitle -->
 <h2> Desafio - Criar lista de tarefas (Todo) usando React com Redux</h2>
@@ -55,8 +55,10 @@ Pontos que serão avaliados:
 ## 🧰 Tecnologias e Bibliotecas
 
 * [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
+  * [Redux](https://redux.js.org/)
+  * [Redux Toolkit](https://redux-toolkit.js.org/)
   * [Vite](https://www.npmjs.com/package/styled-components)
-  * [phosphoricons](https://phosphoricons.com/)
+  * [phosphor-react](https://phosphoricons.com/)
   * [CSS-Modules](https://github.com/css-modules/css-modules) 
   * [react-modal](https://www.npmjs.com/package/react-modal) 
   * [react-toastify](https://www.npmjs.com/package/react-toastify) 
