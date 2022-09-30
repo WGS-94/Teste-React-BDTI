@@ -13,20 +13,25 @@ import styles from './List.module.css';
 
 const TaskList = () => {
 
+  // Ação de despacho para controle de como os dados devem ser alterados
   const dispatch = useDispatch();
-    const tab = useSelector(
-        (state : ITab) => state.tabWatch.tab
-    );
-    const tasks = useSelector(
-        (state : IState) => state.tasksWatch.tasks
-    );
 
+  // Hook customizado. Sempre que o hook for chamado, os componentes são renderizados novamente 
+  const tab = useSelector(
+      (state : ITab) => state.tabWatch.tab
+  );
+  const tasks = useSelector(
+      (state : IState) => state.tasksWatch.tasks
+  );
+
+  // Variáveis para pegar as quantidades de tarefas (criadas, em andamento e concluídas)
   const createdTask = tasks.length;
   const completedTask = tasks.filter((task) => task.complete).length;
   const inProgressTasks = tasks.filter((task) => !task.complete).length;
 
   return (
     <>
+      {/* Componente Form para adicionar tarefa */}
       <FormAdd />
       <section className={styles.section}>
         <header className={styles.header}>
@@ -70,7 +75,7 @@ const TaskList = () => {
         </header>
 
         <div className={styles.listTasks}>
-        {/* for items in progress */}
+        {/* Mostrar tarefas em andamento */}
         {tasks.length > 0 && tab === "andamento"
           ? tasks.map((task) => {
               return (
@@ -95,7 +100,7 @@ const TaskList = () => {
               );
             })
           : null}
-          {/* for completed items */}
+          {/* Mostrar tarefas concluídas */}
           {tasks.length > 0 && tab === "concluidas"
             ? tasks.map((task) => {
                 return (
@@ -120,7 +125,7 @@ const TaskList = () => {
                 );
               })
             : null}
-            {/* for all items */}
+            {/* Mostrar todas tarefas criadas */}
             {tasks.length > 0 && tab === "todas"
               ? tasks.map((task) => {
                   return (
