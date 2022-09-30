@@ -1,0 +1,85 @@
+/* import "react-toastify/dist/ReactToastify.css"; */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --gray-100: #f2f2f2;
+  --gray-200: #d9d9d9;
+  --gray-300: #808080;
+  --gray-400: #333333;
+  --gray-500: #262626;
+  --gray-600: #1a1a1a;
+  --gray-700: #0d0d0d;
+
+  --purple: #8284fa;
+  --purple-dark: #5e60ce;
+  --purple-rose: #2a233b;
+  --purple-rose-change: #221936;
+  --blue: #4ea8de;
+  --blue-dark: #1e6f9f;
+  --danger: #e25858;
+
+  --green-100: #00ff88;
+  --green-300: #00D25B;
+  --green-400: #00B37E; 
+  --green-600: #00875F; 
+}
+
+body {
+  background: var(--gray-600);
+  color: var(--gray-100);
+  width: 100%;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--gray-700);       
+}
+body::-webkit-scrollbar-thumb {
+  background: #00ff88;     
+  border-radius: 10px;
+}
+
+/* Estilos do Modal */
+.react-modal-overlay {
+  background: rgba(0,0,0,0.6);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.react-modal-content {
+  width: 100%;
+  /*max-width: 576px; */
+  max-width: 576px;
+  /* height: 150px; */
+  background: #262626;
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.24rem;
+}
+
+@media (max-width: 768px) {
+
+  html {
+    font-size: 87.5%;
+  }
+}

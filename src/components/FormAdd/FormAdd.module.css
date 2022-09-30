@@ -1,0 +1,72 @@
+.header {
+  background: var(--gray-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 11rem;
+  position: relative;
+  /* min-width: 376px; */
+}
+
+.newTaskForm {
+  position: absolute;
+  height: 3.375rem;
+  bottom: calc(-3.375rem / 2);
+  width: 100%;
+  max-width: 46rem;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+
+.newTaskForm input {
+  height: 100%;
+  flex: 1;
+  color: var(--gray-100);
+  background: var(--gray-500);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.newTaskForm input::placeholder {
+  color: var(--gray-300);
+}
+
+.newTaskForm input:focus {
+  border: 2px solid var(--green-300);
+}
+
+.newTaskForm button {
+  height: 100%;
+  padding: 0 1rem;
+  background: var(--green-300);
+  color: var(--purple-rose);
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+
+@media (max-width: 376px) {
+
+  .newTaskForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .newTaskForm input button {
+    height: 80%;
+  }
+
+  .newTaskForm button {
+    height: 98%;
+  }
+}
