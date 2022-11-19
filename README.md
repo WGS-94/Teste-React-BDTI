@@ -95,17 +95,17 @@ Pontos que serão avaliados:
 
 ### Excluir tarefa
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/87288949/202867460-b8d7aa85-f238-418d-8c87-1268f2b92a18.PNG" alt="home">
+  <img src="https://user-images.githubusercontent.com/87288949/202867460-b8d7aa85-f238-418d-8c87-1268f2b92a18.PNG" alt="deleteTask">
 </div>
 
 ### Tarefa excluida
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/87288949/202867461-d4c22dca-bf89-4773-88f9-afa1a7e9d9a7.PNG" alt="home">
+  <img src="https://user-images.githubusercontent.com/87288949/202867461-d4c22dca-bf89-4773-88f9-afa1a7e9d9a7.PNG" alt="DeletedTask">
 </div>
 
 ### Excluir todas as tarefas
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/87288949/202867459-feb613dd-5d18-41e1-aeea-125df5b770d1.PNG" alt="home">
+  <img src="https://user-images.githubusercontent.com/87288949/202867459-feb613dd-5d18-41e1-aeea-125df5b770d1.PNG" alt="DeleteAllTasks">
 </div>
 
 ## 🧰 Tecnologias e Bibliotecas
