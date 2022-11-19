@@ -44,11 +44,47 @@ Pontos que serão avaliados:
 <!-- https://github.com/BDTI/teste-react -->
 
 ## 🖼️ Imagens do Desafio
+<!--
+![concludedTasks](https://user-images.githubusercontent.com/87288949/202867458-935a34e1-1375-4c6b-8317-3478c6fce772.PNG)
+![deleteAllTask](https://user-images.githubusercontent.com/87288949/202867459-feb613dd-5d18-41e1-aeea-125df5b770d1.PNG)
+![deleteTask](https://user-images.githubusercontent.com/87288949/202867460-b8d7aa85-f238-418d-8c87-1268f2b92a18.PNG)
+![deleteTaskMessage](https://user-images.githubusercontent.com/87288949/202867461-d4c22dca-bf89-4773-88f9-afa1a7e9d9a7.PNG)
+![emptyFieldTask](https://user-images.githubusercontent.com/87288949/202867462-c4228b30-ba2c-4f9b-bc55-7c517763e09c.PNG)
+![tasksInProgress](https://user-images.githubusercontent.com/87288949/202867466-d91cc49f-87ca-4d0e-892e-a6bd4b0ffffb.PNG) -->
 
-# Pontos que serão avaliados
+### Inicio
 <div align="center">
-  <img src="src/assets/home.png" alt="home">
+  <img src="https://user-images.githubusercontent.com/87288949/202867463-e2ef9b8b-fe24-4dae-baff-15a8ed6dd49c.PNG" alt="home">
 </div>
+
+### Adicionar tarefa
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/202867454-9a8c358b-eda7-49b0-aff7-05ec3d4c7523.PNG" alt="addTask">
+</div>
+
+### Todas as tarefas
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/202867456-020d6c30-4b69-4e32-bfd4-7694719d6504.PNG" alt="AllTasks">
+</div>
+
+### Concluir tarefa
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/202867457-0262e525-d510-4a19-b501-ab79f7d29e7d.PNG" alt="home">
+</div>
+<!-- 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/202867454-9a8c358b-eda7-49b0-aff7-05ec3d4c7523.PNG" alt="home">
+</div>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/202867454-9a8c358b-eda7-49b0-aff7-05ec3d4c7523.PNG" alt="home">
+</div>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/202867454-9a8c358b-eda7-49b0-aff7-05ec3d4c7523.PNG" alt="home">
+</div>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/202867454-9a8c358b-eda7-49b0-aff7-05ec3d4c7523.PNG" alt="home">
+</div>
+-->
 
 ## 🧰 Tecnologias e Bibliotecas
 
