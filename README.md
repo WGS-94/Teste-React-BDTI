@@ -43,11 +43,12 @@ Pontos que serão avaliados:
 
 <!-- https://github.com/BDTI/teste-react -->
 
-## 🖼️ Imagem do Desafio
+## 🖼️ Imagens do Desafio
 
-<!-- <div align="center">
-  <img src="https://user-images.githubusercontent.com/87288949/172735831-52a6f299-346e-47b1-b7b7-b4d2a245fcc8.PNG">
-</div> -->
+# Pontos que serão avaliados
+<div align="center">
+  <img src="src/assets/home.png">
+</div>
 
 ## 🧰 Tecnologias e Bibliotecas
 
