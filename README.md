@@ -47,7 +47,7 @@ Pontos que serão avaliados:
 
 # Pontos que serão avaliados
 <div align="center">
-  <img src="src/assets/home.png">
+  <img src="src/assets/home.png" alt="home">
 </div>
 
 ## 🧰 Tecnologias e Bibliotecas
