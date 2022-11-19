@@ -67,11 +67,6 @@ Pontos que serão avaliados:
   <img src="https://user-images.githubusercontent.com/87288949/202867456-020d6c30-4b69-4e32-bfd4-7694719d6504.PNG" alt="AllTasks">
 </div>
 
-### Campo vazio ao adicionar tarefa
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/87288949/202867462-c4228b30-ba2c-4f9b-bc55-7c517763e09c.PNG" alt="empty">
-</div>
-
 ### Concluir tarefa
 <div align="center">
   <img src="https://user-images.githubusercontent.com/87288949/202867457-0262e525-d510-4a19-b501-ab79f7d29e7d.PNG" alt="finishTask">
@@ -101,6 +96,11 @@ Pontos que serão avaliados:
 ### Tarefa excluida
 <div align="center">
   <img src="https://user-images.githubusercontent.com/87288949/202867461-d4c22dca-bf89-4773-88f9-afa1a7e9d9a7.PNG" alt="DeletedTask">
+</div>
+
+### Campo vazio ao adicionar tarefa
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/87288949/202867462-c4228b30-ba2c-4f9b-bc55-7c517763e09c.PNG" alt="empty">
 </div>
 
 ### Excluir todas as tarefas
