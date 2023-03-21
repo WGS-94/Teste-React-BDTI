@@ -15,6 +15,10 @@
 </p>-->
 
 <!-- Sobre o Projeto -->
+## Deploy da aplicação
+
+[Teste aqui o projeto](https://teste-react-bdti.netlify.app/)
+
 ## 🚀 Sobre o Desafio
 
 #### Crie, utilizando React com Redux, uma lista de tarefas (Todo), onde deverá ser possível:
